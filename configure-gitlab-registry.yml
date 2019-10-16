@@ -1,7 +1,7 @@
 ---
-  # See https://github.com/jonashackt/docker-ci-stack#gitlab-container-registry
+  # See https://github.com/rockbits/docker-ci-stack#gitlab-container-registry
 
-  # First we need to paste registry_external_url 'https://gitlab.jonashackt.io:4567' into the gitlab.rb
+  # First we need to paste registry_external_url 'https://gitlab.rockbits.it:4567' into the gitlab.rb
   - name: Activate Container Registry in /etc/gitlab/gitlab.rb
     lineinfile:
       path: /etc/gitlab/gitlab.rb
